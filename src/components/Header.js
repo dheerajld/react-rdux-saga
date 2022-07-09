@@ -14,7 +14,7 @@ export const Header = () => {
     
     
     <Link to="/">
-    <h1 className='logo'>Ecomm</h1>
+    <h1 className='logo'>Ecomm-Cart</h1>
     </Link>
     <div className='search-box'>
     <input type="text" onChange={(event)=>dispatch(productSerch(event.target.value))} placeholder='Serch Product' />
